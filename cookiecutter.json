@@ -1,0 +1,8 @@
+{
+  "module_name": "terraform-provider-name",
+  "description": "A Terraform Module Example.",
+  "email": "me@aidanmelen.com",
+  "github_account": "aidanmelen",
+  "tf_version": "1.0.5",
+  "use_aws_provider": "y"
+}

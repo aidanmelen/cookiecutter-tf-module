@@ -1,0 +1,21 @@
+name: Security
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  tfsec:
+    name: Security
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install Deps
+        run: brew update && brew tap liamg/tfsec && brew install pre-commit liamg/tfsec/tfsec terraform
+      - name: Check Security
+        run: pre-commit run --show-diff-on-failure --all-files terraform_tfsec
