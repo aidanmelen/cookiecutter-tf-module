@@ -61,4 +61,4 @@ MIT Licensed. See [LICENSE](https://github.com/aidanmelen/cookiecutter-tf-module
 
 - This project was inspired heavily by the [terraform-aws-eks community module](https://github.com/terraform-aws-modules/terraform-aws-eks). Many thanks to the [authors](https://github.com/terraform-aws-modules/terraform-aws-eks#authors) for all there hard work.
 
-- Shootout to [cjolowicz](https://github.com/cjolowicz) for demonstrating the power of `pre-commit` and `github actons` in his highly recommend [Hypermodern Python blog](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)! His work creating the [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) was a big inspiration in creating this template.
+- Shout-out to [cjolowicz](https://github.com/cjolowicz) for demonstrating the power of `pre-commit` and `github actons` in his highly recommend [Hypermodern Python blog](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)! His work creating the [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) was a big inspiration in creating this template.
